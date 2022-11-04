@@ -42,7 +42,7 @@ public class POJO {
 
 
 	public int setAddamt(int addamt) {
-		return this.addamt = addamt;
+		return this.addamt += addamt;
 	}
 
 

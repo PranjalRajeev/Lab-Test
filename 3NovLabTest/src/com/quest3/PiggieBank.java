@@ -21,28 +21,26 @@ public class PiggieBank {
 		System.out.println("WELCOME TO YOUR PIGGIE BANK");
 		
 		POJO c1 = new POJO();
+		//POJO c2 = new POJO(200,50);
 		c1.setAmount(50);
+		//c2.setAmount(100);
 		
 		int addamt;
 		
 		int choice;
+		do
+		{
 		System.out.println("Do you want to add more: ");
 		choice = sc.nextInt();
 		
-		//switch case
-		switch(choice)
-		{
-		case 1:System.out.println("Enter the amount: ");
+		
+		System.out.println("Enter the amount: ");
 			addamt = sc.nextInt();
 			c1.setAddamt(addamt);
 			System.out.println("AMOUNT ADDED SUCCESSFULLY");
-			System.out.print("Your Amount is: "+c1.getAddamt());
-			break;
-		case 2:System.out.print("Your Amount is: "+c1.getAmount());
-			break;
-		default:
-			System.out.println("Invalid Input....");
-		}//end of switch
+			System.out.println("Your Total Amount is: "+c1.getAddamt());
+			System.out.println("---------------------------");
+		}while(choice == 1); //end of do while
 
 	}//end of main
 
