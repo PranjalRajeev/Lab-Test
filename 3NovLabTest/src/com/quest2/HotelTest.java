@@ -76,6 +76,8 @@ public class HotelTest {
 		System.out.println("	Room Price -"+c1.getRoomPrice());
 		System.out.println("	Room Number -"+c1.getRoomNumber());
 		System.out.println("--------------------------------");
+		sc.close();
 	}
+	
 
 }

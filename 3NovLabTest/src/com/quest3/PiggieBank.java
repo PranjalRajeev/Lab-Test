@@ -41,6 +41,7 @@ public class PiggieBank {
 			System.out.println("Your Total Amount is: "+c1.getAddamt());
 			System.out.println("---------------------------");
 		}while(choice == 1); //end of do while
+		sc.close();
 
 	}//end of main
 

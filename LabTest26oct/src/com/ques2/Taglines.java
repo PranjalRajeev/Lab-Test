@@ -43,6 +43,7 @@ public class Taglines {
 			System.out.println("Enter the Brand Name: ");
 			String BrandName= sc.next().toUpperCase();
 			PrintTagline(BrandName);
+			sc.close();
 			
 		}//end of main
 		
