@@ -27,7 +27,7 @@ public class Calculator {
 		public static float division(float num1, float num2)
 		{
 			float c =num1/num2;
-			try {float c;}
+			try {c =num1/num2;}
 			catch(ArithmeticException e){
 				System.out.println(e.getMessage());
 				
