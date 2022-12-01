@@ -8,11 +8,6 @@ public class Application extends Thread{
 		Thread B = new Thread();
 		Thread C = new Thread();
 		System.out.println("RED LIGHT IS ON");
-		//System.out.println("RED LIGHT IS OFF");
-		//System.out.println("GREEN LIGHT IS ON");
-		//System.out.println("GREEN LIGHT IS OFF");
-		//System.out.println("YELLOW LIGHT IS ON");
-		//System.out.println("RED LIGHT IS ON");
 		A.start();
 		try {
 			A.sleep(3000);
