@@ -6,14 +6,14 @@ public class Duplicate {
 	{
 		int len = s.length();
 		int i,j;
-		String dupli="";
+		int count=1;
 		for(i=0; i<=len; i++)
 		{
-			for(j=len-1; j>0; j--)
+			for(j=i+1; j<len;j++)
 			{
-				if (s.charAt(i)==s.charAt(j-1))
+				if (s.charAt(i)==s.charAt(j))
 				{
-					dupli = dupli +s.charAt(i);
+					count++;
 				}
 				
 			}
